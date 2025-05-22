@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav{
+            height:200px;
+            width: 1300px;
+            display: flex;
+            position: relative;
+        }
+        #ra{
+            height: 50px;
+            width: 150px;
+            position: absolute;
+            left:20px;
+        }
+        .class{
+             font-size: 20px;
+             position: absolute;
+             right: 300px;
+             padding: 50px;
+        }
+        .class1{
+             font-size: 20px;
+             position: absolute;
+             right: 200px;
+             padding: 50px;
+        }
+        .class2{
+             font-size: 20px;
+             position: absolute;
+             right: 120px;
+             padding: 50px;
+        }
+        .class3{
+             font-size: 20px;
+             position: absolute;
+             right: 0px; 
+             padding: 50px;
+        }
+        main{
+            margin: auto;
+            position: relative;
+            height: 400px;
+
+        }
+        h1{
+            position:absolute;
+            left:400px;
+            font-size: 40px;
+            
+        }
+        input{
+            position:absolute;
+            left:400px;
+            top:120px;
+          height: 50px;
+          width: 430px;
+          font-size: 20px;
+          text-align: center;
+        }
+        #input2{
+        position:absolute;
+        left:400px;
+        top:220px;
+          height: 50px;
+          width: 430px;
+          font-size: 20px;
+          text-align: center;
+        }
+        button{
+        position:absolute;
+        left:400px;
+        top: 300px;
+          height: 55px;
+          width: 440px;
+          font-size: 20px;
+          text-align: center;
+          background-color: #FFCA20;
+          font-weight: bold;
+        }
+        #star{
+            position:absolute;
+            left:450px;
+            top:140px;
+            height: 100px;
+            width: 100px;
+        }
+        #star1{
+            position:absolute;
+            left:450px;
+            top:240px;
+            height: 100px;
+            width: 100px;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        aside{
+            height: 400px;
+            display: flex;
+            column-gap: 100px;
+            flex-wrap: wrap;
+        }
+        #id1{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad1.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        #id2{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad2.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        #id3{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad3.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        #id4{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad4.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        #id5{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad5.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        #id6{
+            height: 130px;
+            width: 200px;
+            background-image: url("./rad6.webp");
+            background-size:cover;
+            border-radius: 10px;
+        }
+        footer{
+            height: 400px;
+            position: relative;
+            background-color: black;
+        }
+        h3{
+              position: absolute;
+               left: 450px;
+               font-size: 50px;
+               font-weight: bold;
+               color: aliceblue;
+        }
+        #last{
+               position: absolute;
+               left: 450px;
+               top:130px;
+               background-image: url("./rad7.webp");
+               background-size: cover;
+               height: 100px;
+               width: 100px;
+        }
+        #last1{
+              position: absolute;
+               left: 650px;
+               top:130px;
+               background-image: url("./rad8.webp");
+               background-size: cover;
+               height: 100px;
+               width: 100px;
+        }
+        h4{
+            position: relative;
+            color: aliceblue;
+            top:110px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h5{
+            position: relative;
+            color: aliceblue;
+            top:110px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        article{
+            display: flex;
+            position: relative;
+        }
+        #las1{
+        position: absolute;
+        left: 450px;
+        height: 70px;
+        width: 100px;
+        }
+        #las2{
+        position:absolute;
+        left: 550px;
+        
+        }
+        #las3{
+        position: absolute;
+        left: 650px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="ra"><img src="./logoR1.svg"></div>
+        <div class="class">About Us</div>
+        <div class="class1">Safety</div>
+        <div class="class2">Blog</div>
+        <div class="class3">Contact Us</div>
+    </nav>
+    <main>
+        <h1>Bharat Moves On Rapido!</h1>
+        <input type="text" placeholder="Enter the pickUp Location"><br>
+        <div id="star"><i class="fa-solid fa-location-dot"></i></div>
+        <input id="input2"type="text" placeholder="Enter the Drop Location">
+        <div id="star1"><i class="fa-solid fa-circle"></i></div>
+        <button>Book Ride</button>
+    </main>
+    <h2>Our Services</h2>
+    <aside>
+        <div id="id1"></div>
+        <div id="id2"></div>
+        <div id="id3"></div>
+        <div id="id4"></div>
+        <div id="id5"></div>
+        <div id="id6"></div>
+    </aside>
+    <footer>
+        <h3>Download Now</h3>
+        <div id="last"><h4>Rapido: Bike-Taxi, Auto & Cabs</h4></div>
+        <div id="last1"><h5>Rapido Captain: Drive & Earn</h5></div>
+    </footer>
+    <hr>
+    <article>
+        <div ><i class="fa-brands fa-instagram" id="las1"></i></div>
+        <div id="las2"><i class="fa-brands fa-youtube"></i></div>
+        <div id="las3"><i class="fa-brands fa-square-x-twitter"></i></div>
+    </article>
+    <br>
+    <hr>
+</body>
+</html>

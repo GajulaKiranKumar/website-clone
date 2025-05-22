@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        nav{
+            width: 1300px;
+            height: 50px;
+            background-color:#FF91BB;
+            color: black;
+            position: relative;    
+            
+        }
+        #que{
+             position: absolute;
+             right:70px;
+             top:10px;
+             padding: 8px;
+             
+        }
+        #gt{
+            position: absolute;
+            right: 100px;
+            top:10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #rm{
+            position: absolute;
+             right:150px;
+             top:10px;
+             padding: 8px;
+             
+        }
+        #loc{
+            position: absolute;
+             right:250px;
+             top:10px;
+             padding: 8px;
+            
+        }
+        #mob{
+            position: absolute;
+             right:400px;
+             top:10px;
+             padding: 8px;
+             
+        }
+        section{
+            height: 100;
+            width: 1300px;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            font-weight: bold;
+        
+        }
+        #nya{
+             height: 50px;
+             color:#FC2779;
+        }
+        #input{
+            height: 30px;
+            width: 250px;
+            text-align:start;
+            position: relative;
+            text-align: center;
+            border-radius: 10px;    
+            
+        }
+        #se{
+          position: absolute;
+          right: 400px;
+          padding: 10px;
+          color: #7F7F7F;
+          background-attachment:fixed;
+        
+        }
+        button{
+           height: 35px;
+           background-color: #FC2779;
+           background-color: 1px solid #FC2779;
+           color:white;
+           position:relative;
+           right: 40px;
+
+        }
+        main{
+            height: 50px;
+            width: 1300px;
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: bold;
+        }
+        #off{
+            height: 20px;
+            background-color: #FC2779;
+            color:aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #image{
+            height: 200px;
+            width: 1300px;
+            background-image: url("./f5a60465-e42b-4e11-acd8-5abe2581742e.avif");
+            background-size: cover;
+        }
+        #bag{
+          position: relative;
+           padding: 10px;
+           height: 20px;
+           right: 40px;
+        }
+        #mar{
+            height: 50px;
+            padding: 15px;
+            transition-property: all;
+            transition-timing-function:ease-in;
+            transition-duration: 2s;
+        }
+        
+        article{
+            height: 150px;
+            width: 1000px;
+            display: flex;
+            gap: 10px;
+        }
+        #im1{
+            height: 120px;
+            width: 200px;
+            background-image: url("./cd2062c8-d7e3-4baf-a923-8b7301eadf48.avif");
+            background-size:cover;
+        }
+        #im2{
+            height: 120px;
+            width: 200px;
+            background-image: url("./27f1f921-f5f4-49d8-943c-147d1ee40c58.avif");
+            background-size: cover;
+        }
+        #im3{
+            height: 120px;
+            width: 200px;
+            background-image: url("./cd2062c8-d7e3-4baf-a923-8b7301eadf48.avif");
+            background-size: cover;
+        }
+        #im4{
+            height: 120px;
+            width: 200px;
+            background-image: url("./e53af5a7-1b57-4329-80d6-1d47642da817.avif");
+            background-size: cover;
+        }
+        footer{
+             display: flex;
+             flex-wrap: wrap;
+             width: 1300px;
+             column-gap: 10px;
+             
+        }
+        #d1{
+            height: 100px;
+            width: 200px;
+            background-image: url("./c5a9f908-ee8c-4438-8842-a1de9ab2f35bd1.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d2{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d2.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d3{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d3.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d4{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d4.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d5{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d5.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d6{
+            height: 100px;
+            width: 200px;
+            background-image: url('./d6.avif');
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d7{
+            height: 100px;
+            width: 200px;
+            border-radius: 10px;
+              }
+        #d8{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d7.avif");
+            background-size: cover;
+            border-radius: 10px;
+
+        }
+        #d9{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d8.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d10{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d9.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #d11{
+            height: 100px;
+            width: 200px;
+            background-image: url("./d10.avif");
+            background-size: cover;
+            border-radius: 10px;
+        }
+        #las{
+            height: 498px;
+            width:1300px;
+            background-image: url('./dm1.avif');
+            background-size: cover;
+            background-color: #FFE1F5;
+ 
+        }
+     aside{
+              height: 600px;
+              width: 1300px;
+              background-color: #FFE1F5;
+        }
+
+        #down{
+            height: 150px;
+            width: 1200px;
+            background-image: url('./d2d85c99-a1cc-48d9-a1cb-e81694983d92h2.avif');
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+      <div id="mar">BEAUTY BONAZA  GET YOUR Amazing Deals</div>
+      <div id="que"> <i class="fa-regular fa-circle-question"></i>Help</div>
+      <div><i class="fa-duotone fa-solid fa-gift-card"></i></div>
+      <div id="rm"><i class="fa-duotone fa-light fa-gift-card"></i>Giftcard    |</div>
+      <div id="loc"><i class="fa-solid fa-location-dot"></i>Store&Events         |</div> 
+      <div id="mob"> <i class="fa-solid fa-mobile-screen-button"></i> Get App |</div>
+    </nav>
+    <section>
+        <div id="nya">NykAA</div>
+        <div>Categories</div>
+        <div>brand</div>
+        <div>Luxe</div>
+        <div>Nykaa Fashion</div>
+        <div>Beauty Advice</div>
+        <input type="text" placeholder="Search on Nykaa" id="input">
+        <div id="se"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <button>SignIn</button>
+       <div id="bag"><i class="fa-solid fa-bag-shopping"></i></div>
+    </section>
+    <main>
+        <div>make up </div>
+        <div>skin</div>
+        <div>Hair</div>
+        <div>Applaince</div>
+        <div>bath&body</div>
+        <div>natural</div>
+        <div>moM&baby</div>
+        <div>Health</div>
+        <div>men</div>
+        <div>women</div>
+        <div>lingerene</div>
+        <div id="off">Offers</div>
+    </main>
+    <img id="image">
+    <article>
+        <div id="im1"></div>
+        <div id="im2"></div>
+        <div id="im3"></div>
+        <div id="im4"></div>
+    </article>
+    <h1 id="wh">what Everyone's Loving</h1>
+    <p>meet Our Crowd faves</p>
+    <footer>
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+        <div id="d4"></div>
+        <div id="d5"></div>
+        <div id="d6"></div>
+        <div id="d7"></div>
+        <div id="d8"></div>
+        <div id="d9"></div>
+        <div id="d10"></div>
+        <div id="d11"></div>
+    </footer>
+    <aside>
+    <h2>Make Your First Purchase</h2>
+    <p>Special Offers Only For YOU</p>
+    <div id="las"></div>
+    </aside>
+    <h2>Top Bank Offers</h2>
+    <p>Grab Additional Perks While You Shop!</p>
+    <div id="down">
+
+    </div>
+</body>
+</html>
